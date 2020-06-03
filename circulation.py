@@ -104,6 +104,18 @@ value = 1 and 0
 print(value)
 #综合先看and再看or,优先级：() > not > and > or
 v1 = 1 and 9 or 0 and 5
+#in判断123是否是value的子序列，还有not in
+value = '123asd'
+v1 = '123' in value
+print(v1)
+#例子
+while True:
+    content = input("输入内容：")
+    if '123' in content:
+        print('have 123')
+    else:
+        print(content)
+        break
 """
 编码：
 ascii
